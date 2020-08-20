@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quizlet-clone/static/css/main.5f361e03.chunk.css",
+    "main.js": "/quizlet-clone/static/js/main.7aaf866d.chunk.js",
+    "main.js.map": "/quizlet-clone/static/js/main.7aaf866d.chunk.js.map",
+    "runtime-main.js": "/quizlet-clone/static/js/runtime-main.1e135ae4.js",
+    "runtime-main.js.map": "/quizlet-clone/static/js/runtime-main.1e135ae4.js.map",
+    "static/js/2.1bb2d634.chunk.js": "/quizlet-clone/static/js/2.1bb2d634.chunk.js",
+    "static/js/2.1bb2d634.chunk.js.map": "/quizlet-clone/static/js/2.1bb2d634.chunk.js.map",
+    "index.html": "/quizlet-clone/index.html",
+    "precache-manifest.ab414ee701f3aece6d064410bdfd1f23.js": "/quizlet-clone/precache-manifest.ab414ee701f3aece6d064410bdfd1f23.js",
+    "service-worker.js": "/quizlet-clone/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/quizlet-clone/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1bb2d634.chunk.js.LICENSE.txt": "/quizlet-clone/static/js/2.1bb2d634.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/quizlet-clone/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e135ae4.js",
+    "static/js/2.1bb2d634.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7aaf866d.chunk.js"
+  ]
+}
