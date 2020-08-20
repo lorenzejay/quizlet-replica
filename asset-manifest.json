@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/quizlet-clone/static/css/main.9fde3ce8.chunk.css",
-    "main.js": "/quizlet-clone/static/js/main.fe693677.chunk.js",
-    "main.js.map": "/quizlet-clone/static/js/main.fe693677.chunk.js.map",
-    "runtime-main.js": "/quizlet-clone/static/js/runtime-main.1e135ae4.js",
-    "runtime-main.js.map": "/quizlet-clone/static/js/runtime-main.1e135ae4.js.map",
-    "static/js/2.0999f4b4.chunk.js": "/quizlet-clone/static/js/2.0999f4b4.chunk.js",
-    "static/js/2.0999f4b4.chunk.js.map": "/quizlet-clone/static/js/2.0999f4b4.chunk.js.map",
-    "index.html": "/quizlet-clone/index.html",
-    "precache-manifest.895ed2a9ddfc81fc3f0ed2dad238327e.js": "/quizlet-clone/precache-manifest.895ed2a9ddfc81fc3f0ed2dad238327e.js",
-    "service-worker.js": "/quizlet-clone/service-worker.js",
-    "static/css/main.9fde3ce8.chunk.css.map": "/quizlet-clone/static/css/main.9fde3ce8.chunk.css.map",
-    "static/js/2.0999f4b4.chunk.js.LICENSE.txt": "/quizlet-clone/static/js/2.0999f4b4.chunk.js.LICENSE.txt"
+    "main.css": "/lorenzejay/quizlet-clone.git/static/css/main.9fde3ce8.chunk.css",
+    "main.js": "/lorenzejay/quizlet-clone.git/static/js/main.fe693677.chunk.js",
+    "main.js.map": "/lorenzejay/quizlet-clone.git/static/js/main.fe693677.chunk.js.map",
+    "runtime-main.js": "/lorenzejay/quizlet-clone.git/static/js/runtime-main.69ed76e2.js",
+    "runtime-main.js.map": "/lorenzejay/quizlet-clone.git/static/js/runtime-main.69ed76e2.js.map",
+    "static/js/2.0999f4b4.chunk.js": "/lorenzejay/quizlet-clone.git/static/js/2.0999f4b4.chunk.js",
+    "static/js/2.0999f4b4.chunk.js.map": "/lorenzejay/quizlet-clone.git/static/js/2.0999f4b4.chunk.js.map",
+    "index.html": "/lorenzejay/quizlet-clone.git/index.html",
+    "precache-manifest.68fa4817d499f38f017705289e2cefd1.js": "/lorenzejay/quizlet-clone.git/precache-manifest.68fa4817d499f38f017705289e2cefd1.js",
+    "service-worker.js": "/lorenzejay/quizlet-clone.git/service-worker.js",
+    "static/css/main.9fde3ce8.chunk.css.map": "/lorenzejay/quizlet-clone.git/static/css/main.9fde3ce8.chunk.css.map",
+    "static/js/2.0999f4b4.chunk.js.LICENSE.txt": "/lorenzejay/quizlet-clone.git/static/js/2.0999f4b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e135ae4.js",
+    "static/js/runtime-main.69ed76e2.js",
     "static/js/2.0999f4b4.chunk.js",
     "static/css/main.9fde3ce8.chunk.css",
     "static/js/main.fe693677.chunk.js"
