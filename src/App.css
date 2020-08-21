@@ -124,21 +124,21 @@ form input {
   cursor: pointer;
 }
 .header {
-  min-height: 10vh;
+  min-height: 13vh;
   background-color: #4257b2;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  padding: 0 5vw;
 }
 
 .header .logo {
   color: white;
   letter-spacing: 5px;
   text-transform: uppercase;
+  margin-right: 5vw;
 }
 .header svg {
   color: white;
-  height: 10vh;
 }
 
 .search-btn,
@@ -153,7 +153,13 @@ form input {
 .search-container,
 .create-container {
   display: flex;
+  flex: 0 5%;
 }
+.search-container svg,
+.create-container svg {
+  height: 10vh;
+}
+
 .search-input,
 .create-btn {
   background: none;
@@ -163,6 +169,20 @@ form input {
   font-size: 1.2rem;
 }
 
+.search-input {
+  margin-right: 15px;
+}
+.search-container::after {
+  content: "";
+  height: 3vh;
+  width: 2px;
+  background-color: #354db9;
+  margin: auto 0;
+}
+.create-container {
+  flex: 1;
+  margin-left: 15px;
+}
 .search-input::placeholder {
   color: white;
 }
@@ -171,33 +191,45 @@ form input {
   outline: none;
   border: none;
   padding: 10px;
-  height: 6vh;
+  height: 5.5vh;
   border-radius: 5px;
   color: white;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
-.dropdown-menu-card {
-  min-height: 15vh;
-  min-width: 15vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 0;
+  z-index: 1;
+  transform: translateX(-165px);
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.dropdown-item {
-  text-decoration: none;
+.dropdown-content a {
   color: black;
-  margin: 5px 0;
-  width: 100%;
-  padding: 0 5px;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
 }
 
-.dropdown-item:hover {
-  background: #ff6347;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ffcd1f;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .side-bar {
@@ -227,7 +259,8 @@ form input {
 }
 .social-media-icons {
   display: flex;
-  height: 10vh;
+  min-height: 5vh;
+  color: #3ccfcf;
 }
 .social-media-icons li {
   height: 5vh;
@@ -271,6 +304,7 @@ form input {
   height: 35vh;
   display: flex;
   border-radius: 10px;
+  z-index: -2;
 }
 
 .first-card svg {

@@ -7,6 +7,7 @@ import BarChartIcon from "@material-ui/icons/BarChart";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import SettingsIcon from "@material-ui/icons/Settings";
 import FolderIcon from "@material-ui/icons/Folder";
+import { Layers } from "react-bootstrap-icons";
 
 function Sidebar() {
   return (
@@ -29,7 +30,10 @@ function Sidebar() {
         </ul>
         <hr />
         <ul>
-          <li>Sets</li>
+          <li>
+            <Layers />
+            Sets
+          </li>
           <li>
             <FolderIcon /> Folders
           </li>

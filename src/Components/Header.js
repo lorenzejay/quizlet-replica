@@ -1,40 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import { Search } from "react-bootstrap-icons";
 import { FileEarmarkPlus } from "react-bootstrap-icons";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import { Dropdown } from "react-bootstrap";
+import { Moon } from "react-bootstrap-icons";
 
 function Header() {
-  const createModal = () => {
-    return <div>modal</div>;
+  const [search, setSearch] = useState("");
+  const [removeStyleOnSearch, setRemoveStyle] = useState({ display: "" });
+
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+    setRemoveStyle({ display: "none" });
   };
+  //search will be used to filter out existing titles
+
   return (
     <div className="header">
       <h1 className="logo">Quizlet</h1>
       <div className="search-container">
-        <Search className="search-icon" height="10vh" />
-        <input placeholder="Seach" className="search-input" />
+        <Search className="search-icon" />
+        <input
+          style={{ width: removeStyleOnSearch.display === "none" ? "65vw" : "10vw" }}
+          placeholder="Seach"
+          className="search-input"
+          onChange={handleChange}
+          value={search || ""}
+        />
       </div>
-      <div className="create-container">
+      <div className="create-container" style={removeStyleOnSearch}>
         <FileEarmarkPlus />
         <button className="create-btn">Create</button>
       </div>
-      <button className="upgrade-btn">Upgrade: free 7-day trial</button>
-      <Dropdown>
-        <Dropdown.Toggle className="account-btn" variant="success" id="dropdown-basic">
-          <AccountCircleIcon style={{ height: "10vh" }} onClick={createModal} />
-        </Dropdown.Toggle>
-
-        <Dropdown.Menu className="dropdown-menu-card">
-          <Dropdown.Item href="#/action-1">Your Study Sets</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Settings</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Refer a Friend</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Log Out</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Help Center</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Free Premium</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Night Mode</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
+      <button className="upgrade-btn" style={removeStyleOnSearch}>
+        Upgrade: free 7-day trial
+      </button>
+      <div className="dropdown" style={removeStyleOnSearch}>
+        <AccountCircleIcon style={{ height: "7vh" }} />
+        <div className="dropdown-content">
+          <a href="/">Your Study Sets</a>
+          <a href="/">Settings</a>
+          <a href="/">Refer a Friend</a>
+          <a href="/">Log Out</a>
+          <a href="/">Help Center</a>
+          <a href="/">Free Premium</a>
+          <a href="/">
+            {" Night Mode "}
+            <Moon style={{ color: "black" }} />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
