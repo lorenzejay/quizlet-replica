@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/quizlet-clone/static/css/main.9fde3ce8.chunk.css",
-    "main.js": "/quizlet-clone/static/js/main.d2fb1523.chunk.js",
-    "main.js.map": "/quizlet-clone/static/js/main.d2fb1523.chunk.js.map",
-    "runtime-main.js": "/quizlet-clone/static/js/runtime-main.1e135ae4.js",
-    "runtime-main.js.map": "/quizlet-clone/static/js/runtime-main.1e135ae4.js.map",
-    "static/js/2.0999f4b4.chunk.js": "/quizlet-clone/static/js/2.0999f4b4.chunk.js",
-    "static/js/2.0999f4b4.chunk.js.map": "/quizlet-clone/static/js/2.0999f4b4.chunk.js.map",
-    "index.html": "/quizlet-clone/index.html",
-    "precache-manifest.fad9a1bb2988fbddf65b7ec19ebc778f.js": "/quizlet-clone/precache-manifest.fad9a1bb2988fbddf65b7ec19ebc778f.js",
-    "service-worker.js": "/quizlet-clone/service-worker.js",
-    "static/css/main.9fde3ce8.chunk.css.map": "/quizlet-clone/static/css/main.9fde3ce8.chunk.css.map",
-    "static/js/2.0999f4b4.chunk.js.LICENSE.txt": "/quizlet-clone/static/js/2.0999f4b4.chunk.js.LICENSE.txt"
+    "main.css": "/Quizlet/static/css/main.9fde3ce8.chunk.css",
+    "main.js": "/Quizlet/static/js/main.d2fb1523.chunk.js",
+    "main.js.map": "/Quizlet/static/js/main.d2fb1523.chunk.js.map",
+    "runtime-main.js": "/Quizlet/static/js/runtime-main.4997f5b0.js",
+    "runtime-main.js.map": "/Quizlet/static/js/runtime-main.4997f5b0.js.map",
+    "static/js/2.0999f4b4.chunk.js": "/Quizlet/static/js/2.0999f4b4.chunk.js",
+    "static/js/2.0999f4b4.chunk.js.map": "/Quizlet/static/js/2.0999f4b4.chunk.js.map",
+    "index.html": "/Quizlet/index.html",
+    "precache-manifest.bde184b7e355bee3fc335554132e7189.js": "/Quizlet/precache-manifest.bde184b7e355bee3fc335554132e7189.js",
+    "service-worker.js": "/Quizlet/service-worker.js",
+    "static/css/main.9fde3ce8.chunk.css.map": "/Quizlet/static/css/main.9fde3ce8.chunk.css.map",
+    "static/js/2.0999f4b4.chunk.js.LICENSE.txt": "/Quizlet/static/js/2.0999f4b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e135ae4.js",
+    "static/js/runtime-main.4997f5b0.js",
     "static/js/2.0999f4b4.chunk.js",
     "static/css/main.9fde3ce8.chunk.css",
     "static/js/main.d2fb1523.chunk.js"
