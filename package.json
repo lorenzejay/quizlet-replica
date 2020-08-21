@@ -2,7 +2,7 @@
   "name": "quizlet-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lorenzejay.github.io/quizlet-clone/",
+  "homepage": "https://lorenzejay.github.io/Quizlet",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
