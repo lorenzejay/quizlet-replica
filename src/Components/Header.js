@@ -3,10 +3,14 @@ import { Search } from "react-bootstrap-icons";
 import { FileEarmarkPlus } from "react-bootstrap-icons";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { Moon } from "react-bootstrap-icons";
+import { dark } from "@material-ui/core/styles/createPalette";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [search, setSearch] = useState("");
   const [removeStyleOnSearch, setRemoveStyle] = useState({ display: "" });
+
+  const [darkTheme, setDarkTheme] = useState(true);
 
   const handleChange = (e) => {
     setSearch(e.target.value);
@@ -14,9 +18,16 @@ function Header() {
   };
   //search will be used to filter out existing titles
 
+  const changeTheme = (e) => {
+    setDarkTheme(!darkTheme);
+  };
+
+  console.log(darkTheme);
   return (
-    <div className="header">
-      <h1 className="logo">Quizlet</h1>
+    <nav className="header">
+      <Link to="/">
+        <h1 className="logo">Quizlet</h1>
+      </Link>
       <div className="search-container">
         <Search className="search-icon" />
         <input
@@ -29,7 +40,9 @@ function Header() {
       </div>
       <div className="create-container" style={removeStyleOnSearch}>
         <FileEarmarkPlus />
-        <button className="create-btn">Create</button>
+        <button className="create-btn">
+          <Link to="/create">Create</Link>
+        </button>
       </div>
       <button className="upgrade-btn" style={removeStyleOnSearch}>
         Upgrade: free 7-day trial
@@ -43,14 +56,15 @@ function Header() {
           <a href="/">Log Out</a>
           <a href="/">Help Center</a>
           <a href="/">Free Premium</a>
-          <a href="/">
+          <a href="#" onClick={changeTheme}>
             {" Night Mode "}
             <Moon style={{ color: "black" }} />
           </a>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 
 export default Header;
+export const ThemeContext = React.createContext();
